@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Otstavnoy</title>
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="header">
+    <div class="header_logo">
+        <div class="logo">
+            <img class="logo_img" src="https://sun9-18.userapi.com/impf/y1tcSySbwD8-Ti8iA3vzrM6G29-N8_dkFkJW1A/quU8c5c88mw.jpg?size=0x0&quality=90&proxy=1&sign=31e2d0b7a9bcfd808a1bd1f55bac1d57&c_uniq_tag=pwX91Ip0I-AyPoqssXhagtJ6K5oDTFQHUtcWk9C8FB0&type=video_thumb" alt="">
+        </div>
+        <div class="logo_name">some site</div>
+    </div>
+</header>
+
+<div class="container">
+
+<nav class="menu">
+    <ul class="menu_list">
+       <li><a href="#" class="menu-item">Ссылка меню 1</a></li>
+       <li><a href="#" class="menu-item">Ссылка2</a></li>
+       <li><a href="#" class="menu-item">Ссылка3</a></li>
+    </ul>
+ </nav>
+
+
+
+ <ol class="link_list">
+   <li>
+     <a href="http://kubsu.ru" id="top">Абсолютная гиперссылка</a> 
+   </li>
+   
+   <li>
+     <a href="https://kubsu.ru/">Абсолютная гиперссылка в протоколе https</a> 
+   </li>
+   
+   <li>
+     <a href="ftp://myfile.zip"> Ссылка FTP без авторизации </a>
+   </li>
+   
+   <li>
+     <a href="ftp://vasya:qwerty@example.com/myfile.zip"> Ссылка FTP с авторизацией </a>    
+   </li>
+   
+   <li>
+     <a href="https://en.wikipedia.org/wiki/URI_fragment#see_also"> 
+       Ссылка на фрагмент страницы некоторого сайта
+     </a>
+   </li>
+   
+   <li> 
+     <a href="#form"> Ссылка на фрагмент текущей страницы  </a>
+   </li>
+
+   <li>
+     <a href=" http://example.com?user=vasya&pass=qwerty"> Ссылка с двумя параметрами в URL </a> 
+   </li>
+
+   <li>
+     <a href="#top" title="Начало"> Начало страницы </a>
+   <br/>
+     <a href="#form" title="Форма"> Форма </a>
+   </li>
+     
+   <li>
+     <a> Ссылка без href</a>
+   </li>
+
+   <li> 
+     <a href=""> Ссылка с пустым href </a>
+   </li>
+
+   <li>
+     <a href="http://kubsu.ru/" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a>
+   </li>
+
+   <li>
+     <a href="http://kubsu.ru/">запрещенная для индексации поисковиками </a>
+   </li>
+
+   <li>
+     <p>
+       Контекстная <a href="http://kubsu.ru/">  ссылка  </a> в тексте абзаца
+     </p>
+   </li>
+
+   <li>
+     Ссылка-изображение
+     <a href="https://webref.ru"><img src="image/shark.jpg" alt="300"></a>
+   </li>
+
+   <li>
+     Ссылка из прямоугольных и круглых областей картинки
+     <p>
+       <img src="https://miroslavs.com/wp-content/uploads/2012/08/12.png" usemap="box" alt="600">
+   <map name="box">
+       <area shape="rect" coords="0,0,75,75" href="https://ru.wikipedia.org/wiki/Красный_цвет" title="Красный">
+       <area shape="rect" coords="0,75,75,150" href="https://ru.wikipedia.org/wiki/Синий_цвет" title="Синий">
+       <area shape="rect" coords="75,0,150,75" href="https://ru.wikipedia.org/wiki/Зелёный_цвет" title="Зеленый">
+       <area shape="rect" coords="75,75,150,150" href="https://ru.wikipedia.org/wiki/Жёлтый_цвет" title="Желтый">
+   </map>
+     </p>
+       
+   </li>
+
+   <li>
+     <a href="example.html">Относительная ссылка на страницу в текущем каталоге</a>
+   </li>
+    
+   <li>
+     <a href="about/example.html"> Относительная ссылка на страницу в каталоге about</a>
+   </li>
+
+   <li>
+     <a href="../example.html"> Относительная ссылка на страницу в каталоге уровнем выше текущего </a>
+   </li>
+
+   <li>
+     <a href="../../example.html"> Относительная ссылка на страницу в каталоге двумя уровнями выше </a>
+   </li> 
+
+   <li> 
+     <a href="https://is.gd/Zx3kwT"> Сокращенная ссылка на главную </a>
+   </li>
+   
+   <li>
+     <a href="https://is.gd/0pOMb5"> Сокращенная ссылка на внутреннюю </a>
+   </li>
+ </ol>
+ <h2>Таблица</h2>
+ 
+ <table>
+     <tr>
+         <th>Колонка 1</th>
+         <th>Колонка 2</th>
+         <th>Колонка 3</th>
+     </tr>
+     <tr>
+         <td colspan="3">kubsu)</td>
+     </tr>
+     <tr>
+         <td>11</td>
+         <td>12</td>
+         <td>13</td>
+     </tr>
+     <tr>
+         <td>21</td>
+         <td>22</td>
+         <td>23</td>
+     </tr>
+     <tr>
+         <td>31</td>
+         <td>32</td>
+         <td>33</td>
+     </tr>
+     <tr>
+         <td>41</td>
+         <td>42</td>
+         <td>43</td>
+     </tr>
+ </table>
+ <form action="reply.html" method="POST" id="form">
+ <label>
+   Имя
+   <br/>
+   <input name="name" placeholder="Имя"/>
+ </label>
+ <br/>
+
+ <label>
+   Email
+   <br/>
+   <input name="email" type="email" placeholder="Введите вашу почту" />
+ </label>
+ <br/>
+
+ <label>
+   Дата рождения<br />
+   <input name="date" type="date" />
+ </label><br />
+ 
+ Пол<br />
+ <label><input type="radio" name="gender" value="male" />
+   Мужской
+ </label>
+ <label><input type="radio" name="gender" value="female" />
+   Женский
+ </label><br/>
+
+ Кол-во конечностей
+ <br/>
+ <label><input type="radio" name="limbs" value="limbs-1" />
+  1
+ </label>
+ <label><input type="radio" name="limbs" value="limbs-2" />
+  2
+ </label>
+ <label><input type="radio" name="limbs" value="limbs-3" />
+   3
+ </label>
+ <label><input type="radio" name="limbs" value="limbs-4" />
+   4
+ </label>
+ <br/>
+
+ <label>
+   Сверхспособности
+   <br/>
+   <select name="power" multiple="multiple">
+     <option value="immortality">Бессметрие</option>
+     <option value="noclip">Прохождение сквозь стены</option>
+     <option value="levitation">Левитация</option>
+   </select>
+ </label><br />
+
+ <label>
+   Биография<br />
+   <textarea name="biography"></textarea>
+ </label>
+ <br/>      
+
+ <label><input type="checkbox" name="contract-accepted" />
+   с контрактом ознакомлен (а)</label><br />
+
+ <input type="submit" value="Отправить" />
+</form>
+</div>
+
+
+<footer class="footer">
+    <p class="footer_content">(c) Отставной Василий 2022</p>
+</footer>
+
+</body>
+</html>
