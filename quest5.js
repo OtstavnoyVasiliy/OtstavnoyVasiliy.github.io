@@ -3,7 +3,7 @@ const count=document.querySelector('.input-count')
 const button=document.querySelector('.submit-choose')
 const sum=document.querySelector('.sum')
 
-btn.addEventListener('click',(e)=>{
+button.addEventListener('click',(e)=>{
     e.preventDefault()
     sum.innerHTML= (parseInt(price.value) * parseInt(count.value)).toString();
 })
