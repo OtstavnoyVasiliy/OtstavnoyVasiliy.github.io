@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <label>
+        <input type="number" class="col" value="0" placeholder="Колличество">
+    </label>
+    <select class="selector">
+        <option class="option option_1" value="1" selected>Доширак</option>
+        <option class="option option_2" value="2" >Мерседес</option>
+        <option class="option option_3" value="3">Кроссовки</option>
+    </select>
+    <div class="select_options" style="display: none">
+        <label>
+            <input class="radio" type="radio" name="class" checked value="e-class">
+            E-class
+        </label>
+        <label>
+            <input class="radio" type="radio" name="class" value="c-class">
+            C-class
+        </label>
+        <label>
+            <input class="radio" type="radio" name="class" value="s-class">
+            S-class
+        </label>
+    </div>
+    <div class="delivery_check" style="display: none">
+        <label>
+            <input type="checkbox" class="delivery" value="deliver" name="deliver">
+            Доставка
+        </label>
+    </div>
+
+</form>
+<p>Итоговая стоимость: <span class="price">0</span></p>
+
+<script src="quest6.js"></script>
+</body>
+</html>
