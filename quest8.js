@@ -50,7 +50,7 @@ form.addEventListener('submit', (e) =>{
     localStorage.setItem('message',  form.querySelector("[name='message']").value)
     form.querySelector('.check_box').checked=false
     popup.classList.remove("popup_open")
-    fetch("https://formcarry.com/s/U25SuyQ1G",{
+    fetch("https://formcarry.com/s/-iKm7cdvr",{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json;charset=utf-8'
